@@ -1,0 +1,7 @@
+.instaLogo {
+    background-image: url("/image/Instagram.jpg");
+    height: 72px;
+    width: 228px;
+    background-repeat: no-repeat !important;
+    margin: 0 auto;
+}

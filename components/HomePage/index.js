@@ -1,11 +1,13 @@
 import Navbar from '../Navbar'
-import Sidebar from "../Sidebar";
+import Sidebar from '../Sidebar'
+import Feed from "../Feed";
+
 const Index = () => {
     return (
         <>
-            <Navbar />
-
-            <Sidebar />
+            <Navbar/>
+            <Sidebar/>
+            <Feed/>
         </>
     )
 }

@@ -1,0 +1,7 @@
+.profile {
+    height: 53px;
+    width: 53px;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    border-radius: 100%;
+}

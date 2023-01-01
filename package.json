@@ -9,9 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.1",
     "@next/font": "13.0.7",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@uiball/loaders": "^1.2.6",
+    "firebase": "^9.15.0",
     "next": "13.0.7",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-redux": "^8.0.5",
+    "react-toastify": "^9.1.1",
+    "reapop": "^4.2.1",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "styled-components": "^5.3.6",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "prettier": "2.8.1"
   }
 }
