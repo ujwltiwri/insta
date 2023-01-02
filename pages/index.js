@@ -2,7 +2,7 @@ import Head from 'next/head'
 import {useContext} from 'react'
 import {AuthContext} from '../context/auth'
 import dynamic from "next/dynamic";
-import {DotPulse} from "@uiball/loaders";
+import {DotWave} from "@uiball/loaders";
 import {Vortex} from "react-loader-spinner";
 
 // import Feed from "../components/Feed";
@@ -10,15 +10,9 @@ import {Vortex} from "react-loader-spinner";
 export default function Home() {
     const {user} = useContext(AuthContext)
     const Feed = dynamic(() => import('../components/Feed'), {
-        loading: () => <Vortex
-            visible={true}
-            height="80"
-            width="80"
-            ariaLabel="vortex-loading"
-            wrapperStyle={{display: 'flex', height: '100vh', alignItems: 'center', justifyContent: 'center'}}
-            wrapperClass="vortex-wrapper"
-            colors={['red', 'green', 'blue', 'yellow', 'orange', 'purple']}
-        />
+        loading: () => <div className='load' aria-live="polite">
+            <DotWave size={100} color={'#7EAF97'}/>
+        </div>
     })
     return (
         <>
